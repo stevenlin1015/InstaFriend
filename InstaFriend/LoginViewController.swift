@@ -10,7 +10,7 @@ import UIKit
 
 class LoginViewController: UIViewController, UITextFieldDelegate {
     var userDatas: [UserData] = [UserData(username: "12341234", userpassword: "1234567890"),UserData(username: "adminadmin", userpassword: "1234567890")]
-    
+    var loginConfirmed = false
     
     @IBOutlet var userNameTextFieldOutlet: UITextField!
     @IBOutlet var passwordTextFieldOutlet: UITextField!
@@ -36,7 +36,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    //MARK:IBAction
+    //MARK: IBAction
     @IBAction func usernameTextField(_ sender: UITextField) {
         if let usernameLength = userNameTextFieldOutlet.text, usernameLength.count >= 8, let passwordLength = passwordTextFieldOutlet.text, passwordLength.count >= 8 {
             loginButtonOutlet.alpha = 1.0
@@ -60,10 +60,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
             for user in userDatas {
                 if user.username == username && user.userpassword == userpassword {
                     print("Login confirmed.")
+                    loginConfirmed = true
                 } else {
-                    print("No matched user")
-                    print("username: \(username) <> user.username: \(user.username)")
-                    print("userpassword: \(userpassword) <> user.userpassword: \(user.userpassword)")
                     let alertView = UIAlertController(title: "錯誤", message: "無效的帳號或密碼，請重新輸入。", preferredStyle: .alert)
                     let OKAction = UIAlertAction(title: "好", style: .default, handler: { (void) in
                         self.passwordTextFieldOutlet.text = ""
@@ -76,7 +74,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     }
     
     
-    //MARK:UITextField
+    //MARK: UITextField
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         userNameTextFieldOutlet.resignFirstResponder()
         passwordTextFieldOutlet.resignFirstResponder()
@@ -86,4 +84,10 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         self.view.endEditing(true)
     }
 
+    //MARK: Segue
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "main_page" && loginConfirmed {
+            let mainViewController = segue.destination as! 
+        }
+    }
 }
