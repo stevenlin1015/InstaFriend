@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RegisterViewController: UIViewController {
+class RegisterViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet var cellphoneButton: UIButton!
     @IBOutlet var emailButton: UIButton!
     var isRegisterUsingCellphone = true
@@ -22,11 +22,14 @@ class RegisterViewController: UIViewController {
         inputTextFieldOutlet.layer.borderWidth = 0.8
         inputTextFieldOutlet.layer.borderColor = UIColor.lightGray.cgColor
         inputTextFieldOutlet.layer.cornerRadius = 8.0
+        self.inputTextFieldOutlet.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
+    //MARK: IBAction
     @IBAction func registerWithCellphoneButton(_ sender: UIButton) {
         if (isRegisterUsingCellphone == false) {
             cellphoneButton.setTitleColor(.black, for: .normal)
@@ -51,8 +54,17 @@ class RegisterViewController: UIViewController {
         nextButton.backgroundColor = UIColor(red: 54.0/255.0, green: 155.0/255.0, blue: 255.0/255.0, alpha: 1.0)
     }
     @IBAction func loginButton(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
     }
     
+    //MARK:UITextField
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        inputTextFieldOutlet.resignFirstResponder()
+        return true
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
     
 }
 

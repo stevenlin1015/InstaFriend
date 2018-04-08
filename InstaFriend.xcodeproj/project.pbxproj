@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FB079862079E64800D9240E /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB079852079E64800D9240E /* UserData.swift */; };
 		3FFFFF92206FB0D700DDB9E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFFFF91206FB0D700DDB9E3 /* AppDelegate.swift */; };
 		3FFFFF94206FB0D700DDB9E3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFFFF93206FB0D700DDB9E3 /* RegisterViewController.swift */; };
 		3FFFFF97206FB0D700DDB9E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFFFF95206FB0D700DDB9E3 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FB079852079E64800D9240E /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		3FFFFF8E206FB0D700DDB9E3 /* InstaFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaFriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFFFF91206FB0D700DDB9E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FFFFF93206FB0D700DDB9E3 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FB079842079E62300D9240E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FB079852079E64800D9240E /* UserData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		3FFFFF85206FB0D700DDB9E3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		3FFFFF90206FB0D700DDB9E3 /* InstaFriend */ = {
 			isa = PBXGroup;
 			children = (
+				3FB079842079E62300D9240E /* Model */,
 				3FFFFF91206FB0D700DDB9E3 /* AppDelegate.swift */,
 				3FFFFF93206FB0D700DDB9E3 /* RegisterViewController.swift */,
 				3FFFFFA3207293E100DDB9E3 /* LoginViewController.swift */,
@@ -141,6 +152,7 @@
 			files = (
 				3FFFFFA4207293E100DDB9E3 /* LoginViewController.swift in Sources */,
 				3FFFFF94206FB0D700DDB9E3 /* RegisterViewController.swift in Sources */,
+				3FB079862079E64800D9240E /* UserData.swift in Sources */,
 				3FFFFF92206FB0D700DDB9E3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
