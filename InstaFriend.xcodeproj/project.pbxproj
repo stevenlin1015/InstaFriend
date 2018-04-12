@@ -7,24 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F6CF2F7207E1C64008D12F2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6CF2F6207E1C64008D12F2 /* ProfileViewController.swift */; };
 		3FB079862079E64800D9240E /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB079852079E64800D9240E /* UserData.swift */; };
 		3FB079882079F34800D9240E /* NewsFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB079872079F34800D9240E /* NewsFeedTableViewController.swift */; };
+		3FB0798D2079F75D00D9240E /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0798C2079F75D00D9240E /* MainTabBarController.swift */; };
+		3FB0798F207A01C900D9240E /* asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB0798E207A01C900D9240E /* asset.xcassets */; };
+		3FB07991207A0A1400D9240E /* NewsFeedCellContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB07990207A0A1400D9240E /* NewsFeedCellContent.swift */; };
+		3FB07993207A0E1C00D9240E /* NewsFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB07992207A0E1C00D9240E /* NewsFeedTableViewCell.swift */; };
+		3FB07995207A236800D9240E /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB07994207A236800D9240E /* TrendingViewController.swift */; };
+		3FB07999207A6E6B00D9240E /* TrendingImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB07998207A6E6B00D9240E /* TrendingImageCollectionViewCell.swift */; };
 		3FFFFF92206FB0D700DDB9E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFFFF91206FB0D700DDB9E3 /* AppDelegate.swift */; };
 		3FFFFF94206FB0D700DDB9E3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFFFF93206FB0D700DDB9E3 /* RegisterViewController.swift */; };
 		3FFFFF97206FB0D700DDB9E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFFFF95206FB0D700DDB9E3 /* Main.storyboard */; };
-		3FFFFF99206FB0D700DDB9E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFFFF98206FB0D700DDB9E3 /* Assets.xcassets */; };
 		3FFFFF9C206FB0D800DDB9E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFFFF9A206FB0D800DDB9E3 /* LaunchScreen.storyboard */; };
 		3FFFFFA4207293E100DDB9E3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFFFFA3207293E100DDB9E3 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F6CF2F6207E1C64008D12F2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3FB079852079E64800D9240E /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		3FB079872079F34800D9240E /* NewsFeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedTableViewController.swift; sourceTree = "<group>"; };
+		3FB0798C2079F75D00D9240E /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		3FB0798E207A01C900D9240E /* asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = asset.xcassets; sourceTree = "<group>"; };
+		3FB07990207A0A1400D9240E /* NewsFeedCellContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedCellContent.swift; sourceTree = "<group>"; };
+		3FB07992207A0E1C00D9240E /* NewsFeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedTableViewCell.swift; sourceTree = "<group>"; };
+		3FB07994207A236800D9240E /* TrendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		3FB07998207A6E6B00D9240E /* TrendingImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		3FFFFF8E206FB0D700DDB9E3 /* InstaFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaFriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFFFF91206FB0D700DDB9E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FFFFF93206FB0D700DDB9E3 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		3FFFFF96206FB0D700DDB9E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3FFFFF98206FB0D700DDB9E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FFFFF9B206FB0D800DDB9E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FFFFF9D206FB0D800DDB9E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FFFFFA3207293E100DDB9E3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				3FB079852079E64800D9240E /* UserData.swift */,
+				3FB07990207A0A1400D9240E /* NewsFeedCellContent.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -52,8 +65,35 @@
 		3FB079892079F35200D9240E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3FFFFF95206FB0D700DDB9E3 /* Main.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		3FB0798A2079F39900D9240E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FFFFF93206FB0D700DDB9E3 /* RegisterViewController.swift */,
+				3FFFFFA3207293E100DDB9E3 /* LoginViewController.swift */,
+				3FB0798C2079F75D00D9240E /* MainTabBarController.swift */,
+				3FB079872079F34800D9240E /* NewsFeedTableViewController.swift */,
+				3FB07992207A0E1C00D9240E /* NewsFeedTableViewCell.swift */,
+				3FB07994207A236800D9240E /* TrendingViewController.swift */,
+				3FB07998207A6E6B00D9240E /* TrendingImageCollectionViewCell.swift */,
+				3F6CF2F6207E1C64008D12F2 /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3FB0798B2079F3AC00D9240E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FFFFF91206FB0D700DDB9E3 /* AppDelegate.swift */,
+				3FFFFF9A206FB0D800DDB9E3 /* LaunchScreen.storyboard */,
+				3FFFFF9D206FB0D800DDB9E3 /* Info.plist */,
+				3FB0798E207A01C900D9240E /* asset.xcassets */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		3FFFFF85206FB0D700DDB9E3 = {
@@ -75,16 +115,10 @@
 		3FFFFF90206FB0D700DDB9E3 /* InstaFriend */ = {
 			isa = PBXGroup;
 			children = (
+				3FB0798A2079F39900D9240E /* Controllers */,
 				3FB079892079F35200D9240E /* View */,
 				3FB079842079E62300D9240E /* Model */,
-				3FFFFF91206FB0D700DDB9E3 /* AppDelegate.swift */,
-				3FFFFF93206FB0D700DDB9E3 /* RegisterViewController.swift */,
-				3FFFFFA3207293E100DDB9E3 /* LoginViewController.swift */,
-				3FB079872079F34800D9240E /* NewsFeedTableViewController.swift */,
-				3FFFFF95206FB0D700DDB9E3 /* Main.storyboard */,
-				3FFFFF98206FB0D700DDB9E3 /* Assets.xcassets */,
-				3FFFFF9A206FB0D800DDB9E3 /* LaunchScreen.storyboard */,
-				3FFFFF9D206FB0D800DDB9E3 /* Info.plist */,
+				3FB0798B2079F3AC00D9240E /* Supporting Files */,
 			);
 			path = InstaFriend;
 			sourceTree = "<group>";
@@ -149,8 +183,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FFFFF9C206FB0D800DDB9E3 /* LaunchScreen.storyboard in Resources */,
-				3FFFFF99206FB0D700DDB9E3 /* Assets.xcassets in Resources */,
 				3FFFFF97206FB0D700DDB9E3 /* Main.storyboard in Resources */,
+				3FB0798F207A01C900D9240E /* asset.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,11 +195,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB07991207A0A1400D9240E /* NewsFeedCellContent.swift in Sources */,
 				3FFFFFA4207293E100DDB9E3 /* LoginViewController.swift in Sources */,
+				3FB07993207A0E1C00D9240E /* NewsFeedTableViewCell.swift in Sources */,
 				3FFFFF94206FB0D700DDB9E3 /* RegisterViewController.swift in Sources */,
+				3FB0798D2079F75D00D9240E /* MainTabBarController.swift in Sources */,
+				3FB07999207A6E6B00D9240E /* TrendingImageCollectionViewCell.swift in Sources */,
+				3F6CF2F7207E1C64008D12F2 /* ProfileViewController.swift in Sources */,
 				3FB079862079E64800D9240E /* UserData.swift in Sources */,
 				3FB079882079F34800D9240E /* NewsFeedTableViewController.swift in Sources */,
 				3FFFFF92206FB0D700DDB9E3 /* AppDelegate.swift in Sources */,
+				3FB07995207A236800D9240E /* TrendingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,10 +341,9 @@
 		3FFFFFA1206FB0D800DDB9E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8D58TTN334;
-				INFOPLIST_FILE = InstaFriend/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/InstaFriend/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blogspot.codingonmac.InstaFriend;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -316,10 +355,9 @@
 		3FFFFFA2206FB0D800DDB9E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8D58TTN334;
-				INFOPLIST_FILE = InstaFriend/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/InstaFriend/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blogspot.codingonmac.InstaFriend;
 				PRODUCT_NAME = "$(TARGET_NAME)";
